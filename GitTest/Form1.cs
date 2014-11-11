@@ -21,5 +21,10 @@ namespace GitTest
         {
             MessageBox.Show("DO THAT SHIT!");
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            button1.BackColor = button1.BackColor == Color.ForestGreen ? Color.DeepSkyBlue : Color.ForestGreen;
+        }
     }
 }
